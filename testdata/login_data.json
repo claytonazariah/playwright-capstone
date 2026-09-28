@@ -1,0 +1,22 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expected_success": true,
+    "case": "valid_user"
+  },
+  {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "expected_success": false,
+    "expected_error": "locked out",
+    "case": "locked_out_user"
+  },
+  {
+    "username": "invalid_user",
+    "password": "wrong_password",
+    "expected_success": false,
+    "expected_error": "do not match",
+    "case": "invalid_credentials"
+  }
+]

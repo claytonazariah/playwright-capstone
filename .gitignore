@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Playwright framework output
+logs/*
+!logs/.gitkeep
+screenshots/*
+!screenshots/.gitkeep
+reports/
+test-results/
+playwright-report/
+report.html
+
+venv/
+__pycache__/
+.pytest_cache/
+logs/
+screenshots/
+test-results/
+allure-results/
+*.log
