@@ -225,3 +225,13 @@ screenshots/*
 reports/
 test-results/
 playwright-report/
+report.html
+
+venv/
+__pycache__/
+.pytest_cache/
+logs/
+screenshots/
+test-results/
+allure-results/
+*.log
